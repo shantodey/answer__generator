@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+ul{
+  list-style: none;
+}
+img{
+  vertical-align: middle;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  background: #213448;
+ 
+}
+.Answer__generator{
+    background: #94B4C1;
+    padding: 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 5px;
+    height: 250px;
+    width: 400px;
+}
+h1{
+    font-family: "Ancizar Serif", serif;
+    font-size: 35px;
+    color: #fff;
+}
+.Answer__generator__main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 18px;
+    text-align: center;
+}
+.div1{
+    text-transform: capitalize;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    grid-column: span 2 / span 2;
+}
+.div2,.div3{
+    padding: 15px;
+    border-radius: 10px;
+    border-color: #353250;
+    background-color: #202337;
+    color: #fffefee9;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+      text-align: center;
+}
+#output{
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  grid-column: span 2 / span 2;
+}
+footer{
+  margin-top: 30px;
+grid-column: span 2 / span 2;
+}
